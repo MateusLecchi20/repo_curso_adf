@@ -1,0 +1,9 @@
+{
+	"name": "adf-cursoudemy-mateus",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fd3fe0f6-4be4-4948-9405-b35853bf3b91",
+		"tenantId": "591eb6b8-4d2b-43a0-887a-b97ffa73fa30"
+	}
+}
