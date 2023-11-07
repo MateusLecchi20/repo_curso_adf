@@ -1,0 +1,16 @@
+{
+	"name": "ls_local_sql_server",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=sqldb-cursoudemy-mateus.database.windows.net;initial catalog=sqldb-cursoudemy-mateus;user id=mateus",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYjU4NzI2MC1mNjJkLTRiYTYtOGY5MS01NTQyYWFlYjQxMzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "iradf",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
